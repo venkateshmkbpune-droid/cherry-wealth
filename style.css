@@ -127,6 +127,57 @@ nav a:hover {
     color: #006400;
 }
 
+.hero-stats {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    margin-top: 24px;
+    flex-wrap: wrap;
+}
+
+.stat {
+    min-width: 150px;
+    padding: 18px 16px;
+    background: #ffffff;
+    border-radius: 14px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.stat .count {
+    display: block;
+    font-size: 32px;
+    color: #006400;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.page-ticker {
+    margin-top: 20px;
+    padding: 14px 18px;
+    background: rgba(255, 215, 0, 0.14);
+    border: 1px solid rgba(255, 215, 0, 0.35);
+    border-radius: 12px;
+    display: inline-block;
+}
+
+#visit-count {
+    margin: 0 0 8px;
+    font-weight: 600;
+    color: #004d00;
+}
+
+.ticker-text {
+    margin: 0;
+    color: #333;
+    font-size: 14px;
+    animation: tickerSlide 12s linear infinite;
+}
+
+@keyframes tickerSlide {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
+
 /* FEATURES */
 .features {
     display: flex;
