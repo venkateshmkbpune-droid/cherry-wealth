@@ -1,143 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cherry Wealth – Investing in Your Future</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cherry Wealth blends modern investing with smart planning for Gen Z, millennials, and the next generation.">
+  <title>Cherry Wealth — Next-Gen Finance</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo-mark" aria-hidden="true">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div>
+        <div class="badge">Cherry</div>
+        <h1>Cherry Wealth</h1>
+        <p>Investing made modern.</p>
+      </div>
+    </div>
 
-    <!-- HEADER -->
-    <header>
-        <div class="logo">
-            <img src="logo.png" alt="Cherry Investment Logo">
-            <h1>Cherry Wealth</h1>
-            <p class="tagline">Investing in your future</p>
-        </div>
+    <button class="nav-toggle" aria-expanded="false" aria-label="Open navigation">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
 
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#products">Products</a>
-            <a href="#services">Services</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
+    <nav class="main-nav" data-visible="false">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#products">Products</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-    <!-- HERO SECTION -->
+  <main>
     <section id="home" class="hero">
-        <div class="hero-content">
-            <h2>Building Wealth. Securing Futures.</h2>
-            <p>Smart Investments. Trusted Protection. Long-Term Prosperity.</p>
-            <div class="hero-buttons">
-                <a href="#products" class="btn">Explore Products</a>
-                <a href="#contact" class="btn-outline">Get Started</a>
-            </div>
-            <div class="hero-stats">
-                <div class="stat">
-                    <span class="count" data-target="120">0</span>
-                    <p>Clients served</p>
-                </div>
-                <div class="stat">
-                    <span class="count" data-target="98">0</span>
-                    <p>% client retention</p>
-                </div>
-                <div class="stat">
-                    <span class="count" data-target="47">0</span>
-                    <p>Cr assets advised</p>
-                </div>
-            </div>
-            <div class="page-ticker">
-                <p id="visit-count">Visits from this browser: 0</p>
-                <p class="ticker-text">Trusted planning • secure growth • transparent advice</p>
-            </div>
+      <div class="hero-copy">
+        <span class="eyebrow">Future-ready finance</span>
+        <h2>Grow wealth with clarity, confidence, and style.</h2>
+        <p>Cherry Wealth brings digital-first investing, easy planning, and human advice together for ambitious Gen Z, millennials, and next-gen savers.</p>
+        <div class="hero-actions">
+          <a href="#products" class="btn btn-primary">See offerings</a>
+          <a href="#contact" class="btn btn-secondary">Talk to us</a>
         </div>
+
+        <div class="hero-badges">
+          <span>Stable returns</span>
+          <span>Digital-first advice</span>
+          <span>Personalized roadmaps</span>
+        </div>
+
+        <div class="hero-cards">
+          <article class="card card-glow">
+            <strong>Fast setup</strong>
+            <p>Start with clear goals in minutes.</p>
+          </article>
+          <article class="card card-glow">
+            <strong>Smart moves</strong>
+            <p>Investments tuned to modern lifestyles.</p>
+          </article>
+          <article class="card card-glow">
+            <strong>Guided support</strong>
+            <p>Advice that grows with you.</p>
+          </article>
+        </div>
+      </div>
+
+      <aside class="hero-panel">
+        <div class="stats-panel">
+          <div class="metric">
+            <span class="count" data-target="120">0</span>
+            <p>clients</p>
+          </div>
+          <div class="metric">
+            <span class="count" data-target="98">0</span>
+            <p>retention</p>
+          </div>
+          <div class="metric">
+            <span class="count" data-target="47">0</span>
+            <p>₹ Cr AUM</p>
+          </div>
+        </div>
+
+        <div class="visit-box">
+          <p id="visit-count">Visits from this browser: 0</p>
+          <p class="visit-note">Every visit is one step closer to your next breakthrough.</p>
+        </div>
+      </aside>
     </section>
 
-    <!-- WHY CHOOSE US -->
-    <section class="features">
-        <div class="feature-box">
-            <h3>Goal-Based Planning</h3>
-            <p>Strategies aligned with your life goals.</p>
-        </div>
-        <div class="feature-box">
-            <h3>Safe & Secure</h3>
-            <p>Trusted, transparent, and compliant advisory.</p>
-        </div>
-        <div class="feature-box">
-            <h3>Smart Investments</h3>
-            <p>Data-driven, diversified, long-term strategies.</p>
-        </div>
-        <div class="feature-box">
-            <h3>Wealth Creation</h3>
-            <p>Sustainable growth for families & businesses.</p>
-        </div>
+    <section class="why-us">
+      <div class="section-header">
+        <span class="eyebrow">Why choose Cherry</span>
+        <h2>Modern finance designed for the next generation.</h2>
+      </div>
+      <div class="grid cards-grid">
+        <article class="feature-card">
+          <h3>Personal goals first</h3>
+          <p>Plans shaped around your life, not product pitches.</p>
+        </article>
+        <article class="feature-card">
+          <h3>Transparent pricing</h3>
+          <p>No hidden fees. No noise. Just clear action.</p>
+        </article>
+        <article class="feature-card">
+          <h3>Mobile-first tools</h3>
+          <p>Simple progress tracking and fast adjustments on the go.</p>
+        </article>
+        <article class="feature-card">
+          <h3>Future-proof choices</h3>
+          <p>Diversified products for everyday goals and long-term growth.</p>
+        </article>
+      </div>
     </section>
 
-    <!-- ABOUT -->
     <section id="about" class="about">
-        <h2>About Cherry Investment</h2>
-        <p>Cherry Investment is a client-first financial advisory firm helping individuals, families, and businesses achieve long-term financial freedom through disciplined planning, unbiased advice, and transparent processes.</p>
+      <div class="section-header">
+        <span class="eyebrow">About us</span>
+        <h2>We help people build wealth without the old-school complexity.</h2>
+      </div>
+      <p>Cherry Wealth is a modern advisory service for young professionals, families, and digital natives. We blend technology, simple planning, and trusted advice so you can save, invest, and protect your future with confidence.</p>
     </section>
 
-    <!-- PRODUCTS -->
     <section id="products" class="products">
-        <h2>Investment & Insurance Products</h2>
-        <div class="product-category">
-            <h3>Mutual Funds</h3>
-            <p>Equity, Debt, Hybrid, ELSS, SIP</p>
-        </div>
-        <div class="product-category">
-            <h3>Equity & Market</h3>
-            <p>Direct Equity, PMS, AIF, ETFs</p>
-        </div>
-        <div class="product-category">
-            <h3>Fixed Income</h3>
-            <p>Bonds, FDs, NCDs</p>
-        </div>
-        <div class="product-category">
-            <h3>Retirement</h3>
-            <p>NPS, Retirement Funds, Long-Term Plans</p>
-        </div>
-        <div class="product-category">
-            <h3>Life Insurance</h3>
-            <p>Term, Whole Life, Endowment, ULIPs, Child Plans</p>
-        </div>
-        <div class="product-category">
-            <h3>Health Insurance</h3>
-            <p>Individual, Family, Senior, Critical Illness</p>
-        </div>
-        <div class="product-category">
-            <h3>General Insurance</h3>
-            <p>Motor, Home, Travel, Accident</p>
-        </div>
+      <div class="section-header">
+        <span class="eyebrow">What we offer</span>
+        <h2>Products that fit your goals, from early saving to long-term legacy.</h2>
+      </div>
+      <div class="grid product-grid">
+        <article class="product-card">
+          <h3>Mutual Funds</h3>
+          <p>Equity, Debt, Hybrid, ELSS, SIP — built for steady growth.</p>
+        </article>
+        <article class="product-card">
+          <h3>Equity & ETFs</h3>
+          <p>Direct equity, PMS and ETFs for people who want more control.</p>
+        </article>
+        <article class="product-card">
+          <h3>Fixed Income</h3>
+          <p>Safe, predictable savings with bonds, FDs, and NCDs.</p>
+        </article>
+        <article class="product-card">
+          <h3>Retirement</h3>
+          <p>NPS, pensions, and long-term plans that make future living easy.</p>
+        </article>
+        <article class="product-card">
+          <h3>Insurance</h3>
+          <p>Life, health, and general insurance designed for your lifestyle.</p>
+        </article>
+      </div>
     </section>
 
-    <!-- SERVICES -->
-    <section id="services" class="services">
-        <h2>Our Services</h2>
-        <p>Financial Planning • Wealth Creation • Retirement Planning • Tax Solutions • Investment Advisory • Portfolio Management • Risk Management • Estate Planning</p>
-    </section>
-
-    <!-- PROCESS -->
     <section class="process">
-        <h2>Our 5-Step Process</h2>
-        <div class="steps">
-            <div class="step"><h3>1. Understand</h3><p>Your goals and needs.</p></div>
-            <div class="step"><h3>2. Plan</h3><p>Tailored roadmap.</p></div>
-            <div class="step"><h3>3. Invest</h3><p>Diversified strategy.</p></div>
-            <div class="step"><h3>4. Monitor</h3><p>Track and optimize.</p></div>
-            <div class="step"><h3>5. Achieve</h3><p>Financial freedom.</p></div>
-        </div>
+      <div class="section-header">
+        <span class="eyebrow">How it works</span>
+        <h2>Fast, friendly, and future-focused in 5 steps.</h2>
+      </div>
+      <div class="steps-grid">
+        <div class="step-card"><strong>01</strong><h3>Discover</h3><p>Share your goals, values, and timeline.</p></div>
+        <div class="step-card"><strong>02</strong><h3>Design</h3><p>We craft a plan that fits your life and risk style.</p></div>
+        <div class="step-card"><strong>03</strong><h3>Invest</h3><p>Build a portfolio with clarity and conviction.</p></div>
+        <div class="step-card"><strong>04</strong><h3>Track</h3><p>Monitor progress with modern dashboards.</p></div>
+        <div class="step-card"><strong>05</strong><h3>Grow</h3><p>Adjust as life changes and keep moving forward.</p></div>
+      </div>
     </section>
 
-    <!-- FOOTER -->
-    <footer id="contact">
-        <img src="Contact.png" alt="Contact Information" style="max-width: 100%; height: auto;">
-        <p>© 2026 Cherry Wealth. All Rights Reserved.</p>
-    </footer>
-    <script src="script.js"></script>
+    <section id="contact" class="contact">
+      <div class="contact-copy">
+        <span class="eyebrow">Ready to begin?</span>
+        <h2>Let's build your financial future together.</h2>
+        <p>Reach out for a quick chat, personalized guidance, or a plan you actually understand.</p>
+      </div>
+      <a href="mailto:hello@cherrywealth.com" class="btn btn-primary">Email us</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Cherry Wealth. Built for Gen Z, millennials, and tomorrow’s savers.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
