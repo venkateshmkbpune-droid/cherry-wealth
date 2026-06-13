@@ -3,184 +3,217 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Cherry Wealth blends modern investing with smart planning for Gen Z, millennials, and the next generation.">
-  <title>Cherry Wealth — Next-Gen Finance</title>
+  <meta name="description" content="Cherry Wealth - Your Trust, Our Commitment. Premier wealth management and insurance solutions.">
+  <title>Cherry Wealth — Your Trust, Our Commitment</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <header class="topbar">
-    <div class="brand">
-      <div class="logo-mark" aria-hidden="true">
-        <span></span>
-        <span></span>
-        <span></span>
+  <!-- Header -->
+  <header class="header">
+    <div class="header-container">
+      <div class="logo-section">
+        <svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
+          <circle cx="40" cy="40" r="35" fill="none" stroke="#C49A3F" stroke-width="3"/>
+          <path d="M40 20 Q50 25 50 35 Q50 45 40 50 Q30 45 30 35 Q30 25 40 20" fill="#2D5F3F" opacity="0.8"/>
+        </svg>
+        <div class="logo-text">
+          <h1>Cherry Wealth</h1>
+          <p>Your Trust, Our Commitment</p>
+        </div>
       </div>
-      <div>
-        <div class="badge">Cherry</div>
-        <h1>Cherry Wealth</h1>
-        <p>Investing made modern.</p>
-      </div>
+      
+      <nav class="nav-menu">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#about" class="nav-link">About Us</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <button class="contact-btn">Get Started</button>
     </div>
-
-    <button class="nav-toggle" aria-expanded="false" aria-label="Open navigation">
-      <span></span>
-      <span></span>
-      <span></span>
-    </button>
-
-    <nav class="main-nav" data-visible="false">
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#products">Products</a>
-      <a href="#contact">Contact</a>
-    </nav>
   </header>
 
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h2>Build Wealth with Confidence</h2>
+      <p>Complete financial solutions for life insurance, health protection, investments, and more.</p>
+      <a href="#services" class="btn btn-primary">Explore Services</a>
+    </div>
+  </section>
+
+  <!-- Main Content -->
   <main>
-    <section id="home" class="hero">
-      <div class="hero-copy">
-        <span class="eyebrow">Future-ready finance</span>
-        <h2>Grow wealth with clarity, confidence, and style.</h2>
-        <p>Cherry Wealth brings digital-first investing, easy planning, and human advice together for ambitious Gen Z, millennials, and next-gen savers.</p>
-        <div class="hero-actions">
-          <a href="#products" class="btn btn-primary">See offerings</a>
-          <a href="#contact" class="btn btn-secondary">Talk to us</a>
-        </div>
-
-        <div class="hero-badges">
-          <span>Stable returns</span>
-          <span>Digital-first advice</span>
-          <span>Personalized roadmaps</span>
-        </div>
-
-        <div class="hero-cards">
-          <article class="card card-glow">
-            <strong>Fast setup</strong>
-            <p>Start with clear goals in minutes.</p>
-          </article>
-          <article class="card card-glow">
-            <strong>Smart moves</strong>
-            <p>Investments tuned to modern lifestyles.</p>
-          </article>
-          <article class="card card-glow">
-            <strong>Guided support</strong>
-            <p>Advice that grows with you.</p>
-          </article>
-        </div>
+    <!-- Services Section -->
+    <section id="services" class="services">
+      <div class="section-header">
+        <h2>Our Services</h2>
+        <p>Comprehensive wealth management solutions tailored for your needs</p>
       </div>
 
-      <aside class="hero-panel">
-        <div class="stats-panel">
-          <div class="metric">
-            <span class="count" data-target="120">0</span>
-            <p>clients</p>
-          </div>
-          <div class="metric">
-            <span class="count" data-target="98">0</span>
-            <p>retention</p>
-          </div>
-          <div class="metric">
-            <span class="count" data-target="47">0</span>
-            <p>₹ Cr AUM</p>
-          </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">🛡️</div>
+          <h3>Life Insurance</h3>
+          <p>Protect your family's financial future with comprehensive life insurance plans designed for every stage of life.</p>
         </div>
 
-        <div class="visit-box">
-          <p id="visit-count">Visits from this browser: 0</p>
-          <p class="visit-note">Every visit is one step closer to your next breakthrough.</p>
+        <div class="service-card">
+          <div class="service-icon">❤️</div>
+          <h3>Health Insurance</h3>
+          <p>Secure medical coverage with extensive health insurance plans offering complete wellness protection.</p>
         </div>
-      </aside>
+
+        <div class="service-card">
+          <div class="service-icon">🏠</div>
+          <h3>General Insurance</h3>
+          <p>Comprehensive protection for your home, vehicle, and valuable assets with our trusted general insurance.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">💰</div>
+          <h3>Loans & Credit</h3>
+          <p>Flexible loan solutions and credit services to support your personal and financial goals.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">📈</div>
+          <h3>Mutual Funds</h3>
+          <p>Grow your wealth through expertly managed mutual fund investments with attractive returns.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">🎯</div>
+          <h3>Wealth Planning</h3>
+          <p>Strategic financial planning to achieve your goals - retirement, education, homes, and beyond.</p>
+        </div>
+      </div>
     </section>
 
+    <!-- About Section -->
+    <section id="about" class="about-section">
+      <div class="about-content">
+        <h2>About Cherry Wealth</h2>
+        <p>At Cherry Wealth, we believe that financial security shouldn't be complicated. With over a decade of experience in wealth management, we provide trustworthy, personalized solutions for families and individuals across India.</p>
+        <p>Our founder, Dharmveer Rathod, brings expertise and commitment to every client relationship, ensuring your wealth grows with confidence.</p>
+      </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
     <section class="why-us">
       <div class="section-header">
-        <span class="eyebrow">Why choose Cherry</span>
-        <h2>Modern finance designed for the next generation.</h2>
+        <h2>Why Choose Cherry Wealth</h2>
+        <p>Your partner in building lasting financial security</p>
       </div>
-      <div class="grid cards-grid">
-        <article class="feature-card">
-          <h3>Personal goals first</h3>
-          <p>Plans shaped around your life, not product pitches.</p>
-        </article>
-        <article class="feature-card">
-          <h3>Transparent pricing</h3>
-          <p>No hidden fees. No noise. Just clear action.</p>
-        </article>
-        <article class="feature-card">
-          <h3>Mobile-first tools</h3>
-          <p>Simple progress tracking and fast adjustments on the go.</p>
-        </article>
-        <article class="feature-card">
-          <h3>Future-proof choices</h3>
-          <p>Diversified products for everyday goals and long-term growth.</p>
-        </article>
+      <div class="benefits-grid">
+        <div class="benefit-item">
+          <h3>Expert Guidance</h3>
+          <p>Personalized advice from seasoned financial professionals</p>
+        </div>
+        <div class="benefit-item">
+          <h3>Holistic Solutions</h3>
+          <p>Complete coverage across insurance, loans, and investments</p>
+        </div>
+        <div class="benefit-item">
+          <h3>Trusted & Transparent</h3>
+          <p>Clear communication with no hidden charges</p>
+        </div>
+        <div class="benefit-item">
+          <h3>Proven Results</h3>
+          <p>Strong track record of client satisfaction and wealth growth</p>
+        </div>
       </div>
     </section>
 
-    <section id="about" class="about">
+    <!-- CEO & Founder Section -->
+    <section class="founder-section">
+      <div class="founder-card">
+        <h2>Dharmveer Rathod</h2>
+        <p class="title">CEO & Founder</p>
+        <p class="bio">With a passion for financial excellence and client success, Dharmveer leads Cherry Wealth with integrity and expertise. He ensures every client receives personalized attention and innovative solutions for their wealth management goals.</p>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
       <div class="section-header">
-        <span class="eyebrow">About us</span>
-        <h2>We help people build wealth without the old-school complexity.</h2>
+        <h2>Get In Touch</h2>
+        <p>We're here to help with your financial journey</p>
       </div>
-      <p>Cherry Wealth is a modern advisory service for young professionals, families, and digital natives. We blend technology, simple planning, and trusted advice so you can save, invest, and protect your future with confidence.</p>
-    </section>
 
-    <section id="products" class="products">
-      <div class="section-header">
-        <span class="eyebrow">What we offer</span>
-        <h2>Products that fit your goals, from early saving to long-term legacy.</h2>
-      </div>
-      <div class="grid product-grid">
-        <article class="product-card">
-          <h3>Mutual Funds</h3>
-          <p>Equity, Debt, Hybrid, ELSS, SIP — built for steady growth.</p>
-        </article>
-        <article class="product-card">
-          <h3>Equity & ETFs</h3>
-          <p>Direct equity, PMS and ETFs for people who want more control.</p>
-        </article>
-        <article class="product-card">
-          <h3>Fixed Income</h3>
-          <p>Safe, predictable savings with bonds, FDs, and NCDs.</p>
-        </article>
-        <article class="product-card">
-          <h3>Retirement</h3>
-          <p>NPS, pensions, and long-term plans that make future living easy.</p>
-        </article>
-        <article class="product-card">
-          <h3>Insurance</h3>
-          <p>Life, health, and general insurance designed for your lifestyle.</p>
-        </article>
-      </div>
-    </section>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h3>Contact Information</h3>
+          <div class="info-item">
+            <span class="label">Phone:</span>
+            <a href="tel:+919920247779">+91 9920247779</a>
+          </div>
+          <div class="info-item">
+            <span class="label">Email:</span>
+            <a href="mailto:info.cherrywealth@gmail.com">info.cherrywealth@gmail.com</a>
+          </div>
+          <div class="info-item">
+            <span class="label">Website:</span>
+            <a href="https://www.cherrywealth.in" target="_blank">www.cherrywealth.in</a>
+          </div>
+          <div class="info-item">
+            <span class="label">Office Address:</span>
+            <p>Vikas Paradise Shopping Premises Co.Op. Soc. Ltd.<br>
+            Survey No. 301/302, L.B.S. Marg,<br>
+            Opp. Bal Rajeshwar Temple,<br>
+            Near Axis Bank, Mulund (W),<br>
+            Mumbai - 400080</p>
+          </div>
+        </div>
 
-    <section class="process">
-      <div class="section-header">
-        <span class="eyebrow">How it works</span>
-        <h2>Fast, friendly, and future-focused in 5 steps.</h2>
-      </div>
-      <div class="steps-grid">
-        <div class="step-card"><strong>01</strong><h3>Discover</h3><p>Share your goals, values, and timeline.</p></div>
-        <div class="step-card"><strong>02</strong><h3>Design</h3><p>We craft a plan that fits your life and risk style.</p></div>
-        <div class="step-card"><strong>03</strong><h3>Invest</h3><p>Build a portfolio with clarity and conviction.</p></div>
-        <div class="step-card"><strong>04</strong><h3>Track</h3><p>Monitor progress with modern dashboards.</p></div>
-        <div class="step-card"><strong>05</strong><h3>Grow</h3><p>Adjust as life changes and keep moving forward.</p></div>
+        <div class="cta-box">
+          <h3>Ready to Start?</h3>
+          <p>Let our experts help you build a secure financial future. Contact us today for a free consultation.</p>
+          <a href="mailto:info.cherrywealth@gmail.com" class="btn btn-primary">Schedule Consultation</a>
+        </div>
       </div>
     </section>
 
-    <section id="contact" class="contact">
-      <div class="contact-copy">
-        <span class="eyebrow">Ready to begin?</span>
-        <h2>Let's build your financial future together.</h2>
-        <p>Reach out for a quick chat, personalized guidance, or a plan you actually understand.</p>
-      </div>
-      <a href="mailto:hello@cherrywealth.com" class="btn btn-primary">Email us</a>
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+      <h2>Stay Updated</h2>
+      <p>Subscribe to get financial insights and valuable tips</p>
+      <form class="newsletter-form" id="newsletterForm">
+        <input type="email" placeholder="Enter your email" required>
+        <button type="submit" class="btn btn-primary">Subscribe</button>
+      </form>
     </section>
   </main>
 
+  <!-- Footer -->
   <footer class="footer">
-    <p>© 2026 Cherry Wealth. Built for Gen Z, millennials, and tomorrow’s savers.</p>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <a href="#services">Services</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-section">
+        <h4>Services</h4>
+        <a href="#services">Life Insurance</a>
+        <a href="#services">Health Insurance</a>
+        <a href="#services">Mutual Funds</a>
+        <a href="#services">Wealth Planning</a>
+      </div>
+      <div class="footer-section">
+        <h4>Follow Us</h4>
+        <div class="social-links">
+          <a href="#" aria-label="Facebook">f</a>
+          <a href="#" aria-label="LinkedIn">in</a>
+          <a href="#" aria-label="Instagram">📷</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Cherry Wealth. All rights reserved. | Your Trust, Our Commitment</p>
+    </div>
   </footer>
 
   <script src="script.js"></script>
